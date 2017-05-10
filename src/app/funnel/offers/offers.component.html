@@ -1,3 +1,6 @@
-<p>
-  offers works!
-</p>
+<h1>Offers List :</h1>
+<ul>
+  <li *ngFor="let offer of offers">
+    <img src="{{offer.operator.logo}}"/> {{offer.service.label}} <hr/>
+  </li>
+</ul>

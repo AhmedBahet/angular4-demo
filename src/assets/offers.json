@@ -1,0 +1,646 @@
+{
+  "shipment": {
+    "parcels": [{
+      "weight": "1.0",
+      "length": "16",
+      "width": "15",
+      "height": "8",
+      "quantity": "1"
+    }],
+    "content": "Accessoires vestimentaires de mode",
+    "content_code": "40125",
+    "collection_date": "2017-05-04",
+    "delay": "aucun",
+    "url": "http://www.envoimoinscher.com/offres_transport.html?envoi=CoJourn1k16x15x8-eFR75002j0-pFR33000j60",
+    "shipper": {
+      "type": "entreprise",
+      "country": "France",
+      "country_code": "FR",
+      "postcode": "75009",
+      "city": "PARIS"
+    },
+    "recipient": {
+      "type": "particulier",
+      "country": "France",
+      "country_code": "FR",
+      "postcode": "33000",
+      "city": "BORDEAUX"
+    }
+  },
+  "offers": [
+    {
+      "mode": "COM",
+      "url": "http://www.envoimoinscher.com/choix.html?envoi=CoJourn1k16x15x8-eFR75002j0-pFR33000j60&ope=SOGP&srv=RelaisColis",
+      "operator": {
+        "code": "SOGP",
+        "label": "Relais Colis",
+        "logo": "http://www.envoimoinscher.com/img/operators/SOGP.png"
+      },
+      "service": {
+        "code": "RelaisColis",
+        "label": "Relais Colis® Eco"
+      },
+      "price": {
+        "currency": "EUR",
+        "currency_symbol": "€",
+        "tax_exclusive": "4.11",
+        "tax_inclusive": "4.93"
+      },
+      "characteristics": ["Vous déposez votre envoi dans un Relais Colis® à partir du jeudi 4 mai", "Le Relais Colis® d&apos;arrivée peut être choisi par le destinataire", "Mise à disposition en Relais Colis® à partir du mercredi 10 mai avant 15h. L&apos;envoi reste à disposition pendant 7 jours ouvrés (décomptés du mardi au samedi, indépendamment des jours d&apos;ouverture effective de chaque relais colis)", "Délai non garanti : le destinataire est informé de la mise à disposition de l&apos;envoi par email", "Suivi en ligne possible", "&lt;a class=&quot;infoCond&quot; href=&quot;#&quot;&gt;Responsabilité&lt;/a&gt; Assurance contractuelle en cas de perte, détérioration ou spoliation de votre envoi : indemnité de 23€ par kg"],
+      "options": [
+        {
+          "code": "assurance",
+          "name": "Assurance Sérénité proposée par AXA"
+        }, {
+          "code": "dematerialise",
+          "name": "Option &lt;strong class=&quot;light&quot;&gt;SMART&lt;/strong&gt; : vous pouvez désormais recevoir un QR code au lieu d&apos;imprimer votre bordereau d&apos;expédition (option payante).",
+          "price": {
+            "currency": "EUR",
+            "currency_symbol": "€",
+            "tax_exclusive": "0.41",
+            "tax_inclusive": "0.49"
+          }
+        }],
+      "insurance": {
+        "currency": "EUR",
+        "currency_symbol": "€",
+        "tax_exclusive": "3.75",
+        "tax_inclusive": "3.90"
+      },
+      "collection": {
+        "code": "DROPOFF_POINT",
+        "label": "Point Relais",
+        "date": "2017-05-04",
+        "month": "Mai",
+        "day": "04",
+        "description": "Vous déposez votre envoi dans un Relais Colis® à partir du jeudi 4 mai"
+      },
+      "delivery": {
+        "code": "PICKUP_POINT",
+        "label": "Point Relais",
+        "date": "2017-05-10",
+        "month": "Mai",
+        "day": "10",
+        "delay": "6 Jours",
+        "description": {
+          "#text": ["Le Relais Colis® d&apos;arrivée peut être choisi par le destinataire", "Mise à disposition en Relais Colis® à partir du mercredi 10 mai avant 15h. L&apos;envoi reste à disposition pendant 7 jours ouvrés (décomptés du mardi au samedi, indépendamment des jours d&apos;ouverture effective de chaque relais colis)"],
+          "br": []
+        }
+      }
+    }, {
+      "mode": "COM",
+      "url": "http://www.envoimoinscher.com/choix.html?envoi=CoJourn1k16x15x8-eFR75002j0-pFR33000j60&ope=MONR&srv=CpourToi",
+      "operator": {
+        "code": "MONR",
+        "label": "Mondial Relay",
+        "logo": "http://www.envoimoinscher.com/img/operators/MONR.png"
+      },
+      "service": {
+        "code": "CpourToi",
+        "label": "C.pourToi®"
+      },
+      "price": {
+        "currency": "EUR",
+        "currency_symbol": "€",
+        "tax_exclusive": "4.16",
+        "tax_inclusive": "4.99"
+      },
+      "characteristics": ["Vous déposez votre envoi dans un Point Relais® à partir du jeudi 4 mai", "Le Point Relais® d&apos;arrivée peut être choisi par le destinataire", "Mise à disposition en Point Relais® à partir du jeudi 11 mai avant 15h. L&apos;envoi reste à disposition pendant 14 jours.", "Délai non garanti : le destinataire est informé de la mise à disposition de l&apos;envoi par email", "Suivi en ligne possible", "&lt;a class=&quot;infoCond&quot; href=&quot;#&quot;&gt;Responsabilité&lt;/a&gt; Assurance contractuelle en cas de perte, détérioration ou spoliation de votre envoi : indemnité de 25€ par colis"],
+      "options": {
+        "option": {
+          "code": "assurance",
+          "name": "Assurance Sérénité proposée par AXA"
+        }
+      },
+      "insurance": {
+        "currency": "EUR",
+        "currency_symbol": "€",
+        "tax_exclusive": "3.75",
+        "tax_inclusive": "3.90"
+      },
+      "collection": {
+        "code": "DROPOFF_POINT",
+        "label": "Point Relais",
+        "date": "2017-05-04",
+        "month": "Mai",
+        "day": "04",
+        "description": "Vous déposez votre envoi dans un Point Relais® à partir du jeudi 4 mai"
+      },
+      "delivery": {
+        "code": "PICKUP_POINT",
+        "label": "Point Relais",
+        "date": "2017-05-11",
+        "month": "Mai",
+        "day": "11",
+        "delay": "7 Jours",
+        "description": {
+          "#text": ["Le Point Relais® d&apos;arrivée peut être choisi par le destinataire", "Mise à disposition en Point Relais® à partir du jeudi 11 mai avant 15h. L&apos;envoi reste à disposition pendant 14 jours."],
+          "br": []
+        }
+      }
+    }, {
+      "mode": "COM",
+      "url": "http://www.envoimoinscher.com/choix.html?envoi=CoJourn1k16x15x8-eFR75002j0-pFR33000j60&ope=POFR&srv=ColissimoAccess",
+      "operator": {
+        "code": "POFR",
+        "label": "Colissimo",
+        "logo": "http://www.envoimoinscher.com/img/operators/POFR.png"
+      },
+      "service": {
+        "code": "ColissimoAccess",
+        "label": "Access France"
+      },
+      "price": {
+        "currency": "EUR",
+        "currency_symbol": "€",
+        "tax_exclusive": "7.48",
+        "tax_inclusive": "8.97"
+      },
+      "characteristics": ["Vous devez déposer votre envoi dans un bureau de Poste de votre choix le jeudi 4 mai", "Livraison sur site le mardi 9 mai", "Délai indicatif", "Emballage(s) interdit(s) - &lt;a class=&quot;infoCond&quot; href=&quot;#&quot;&gt;liste&lt;/a&gt; Caisse, Bac, Emballage isotherme, Etui, Malle, Sac, Pochette, Palette, Bâche", "Fermeture(s) d&apos;emballage interdite(s) - &lt;a class=&quot;infoCond&quot; href=&quot;#&quot;&gt;liste&lt;/a&gt; Ruban de cerclage, Sangle ou feuillard, Agraphes et cerclage, Clous et cerclage, Ficelles", "Supplément applicable selon emballage utilisé", "Le suivi est exclusivement accessible sur le site www.colissimo.fr", "&lt;a class=&quot;infoCond&quot; href=&quot;#&quot;&gt;Responsabilité&lt;/a&gt; En cas de perte du colis confirmée par le système d&apos;information de La Poste, ou en cas de spoliation ou détérioration du colis, et après enquête du service client; ou par preuve apportée par l&apos;expéditeur, ce dernier peut bénéficier sur demande d&apos;une indemnisation ne pouvant excéder 23€/Kg (frais de port compris) et dans la limite de 690€, sauf en cas de faute de l&apos;expéditeur ou du destinataire, de force majeure, de vice propre de la chose ou de tout autre élément non imputable à La Poste.", "En cas d&apos;impossibilité de livraison, votre envoi est mis en instance gratuitement dans le bureau de poste de rattachement pendant 15 jours maximum.", "Livraison en boîte aux lettres", "&lt;b class=&apos;red&apos;&gt;EnvoiMoinsCher ne prend pas en charge le SAV&lt;/b&gt;"],
+      "options": {
+        "option": {
+          "code": "assurance",
+          "name": "Assurance Sérénité proposée par AXA"
+        }
+      },
+      "insurance": {
+        "currency": "EUR",
+        "currency_symbol": "€",
+        "tax_exclusive": "3.75",
+        "tax_inclusive": "3.90"
+      },
+      "collection": {
+        "code": "POST_OFFICE",
+        "label": "Bureau de poste",
+        "date": "2017-05-04",
+        "month": "Mai",
+        "day": "04",
+        "description": "Vous devez déposer votre envoi dans un bureau de Poste de votre choix le jeudi 4 mai"
+      },
+      "delivery": {
+        "code": "HOME",
+        "label": "À domicile",
+        "date": "2017-05-09",
+        "month": "Mai",
+        "day": "09",
+        "delay": "5 Jours",
+        "description": "Livraison sur site le mardi 9 mai"
+      }
+    }, {
+      "mode": "COM",
+      "url": "http://www.envoimoinscher.com/choix.html?envoi=CoJourn1k16x15x8-eFR75002j0-pFR33000j60&ope=CHRP&srv=ChronoRelais",
+      "operator": {
+        "code": "CHRP",
+        "label": "Chronopost",
+        "logo": "http://www.envoimoinscher.com/img/operators/CHRP.png"
+      },
+      "service": {
+        "code": "ChronoRelais",
+        "label": "Chrono Relais"
+      },
+      "price": {
+        "currency": "EUR",
+        "currency_symbol": "€",
+        "tax_exclusive": "7.79",
+        "tax_inclusive": "9.35"
+      },
+      "characteristics": ["Vous devez déposer votre envoi dans un bureau de Poste de votre choix le jeudi 4 mai", "Mise à disposition en Chrono Relais® à partir du vendredi 5 mai avant 15h. L&apos;envoi reste à disposition pendant 8 jours.", "Livraison contre signature ou cachet commercial", "Suivi en ligne possible", "&lt;a class=&quot;infoCond&quot; href=&quot;#&quot;&gt;Responsabilité&lt;/a&gt; Assurance contractuelle en cas de perte, déterioration ou spoliation de votre envoi ; s&apos;élève à une indemnité de 23€ par kg sans pouvoir excéder 690€ par colis."],
+      "options": {
+        "option": {
+          "code": "assurance",
+          "name": "Assurance Sérénité proposée par AXA"
+        }
+      },
+      "insurance": {
+        "currency": "EUR",
+        "currency_symbol": "€",
+        "tax_exclusive": "4.05",
+        "tax_inclusive": "4.26"
+      },
+      "collection": {
+        "code": "DROPOFF_POINT",
+        "label": "Point Relais",
+        "date": "2017-05-04",
+        "month": "Mai",
+        "day": "04",
+        "description": "Vous devez déposer votre envoi dans un bureau de Poste de votre choix le jeudi 4 mai"
+      },
+      "delivery": {
+        "code": "PICKUP_POINT",
+        "label": "Point Relais",
+        "date": "2017-05-05",
+        "delay": "1 Jour",
+        "month": "Mai",
+        "day": "05",
+        "description": "Mise à disposition en Chrono Relais® à partir du vendredi 5 mai avant 15h. L&apos;envoi reste à disposition pendant 8 jours."
+      }
+    }, {
+      "mode": "COM",
+      "url": "http://www.envoimoinscher.com/choix.html?envoi=CoJourn1k16x15x8-eFR75002j0-pFR33000j60&ope=POFR&srv=ColissimoExpert",
+      "operator": {
+        "code": "POFR",
+        "label": "Colissimo",
+        "logo": "http://www.envoimoinscher.com/img/operators/POFR.png"
+      },
+      "service": {
+        "code": "ColissimoExpert",
+        "label": "Expert France"
+      },
+      "price": {
+        "currency": "EUR",
+        "currency_symbol": "€",
+        "tax_exclusive": "8.43",
+        "tax_inclusive": "10.12"
+      },
+      "characteristics": ["Vous devez déposer votre envoi dans un bureau de Poste de votre choix le jeudi 4 mai", "Livraison sur site le mardi 9 mai", "Délai indicatif", "Emballage(s) interdit(s) - &lt;a class=&quot;infoCond&quot; href=&quot;#&quot;&gt;liste&lt;/a&gt; Caisse, Bac, Emballage isotherme, Etui, Malle, Sac, Pochette, Palette, Bâche", "Fermeture(s) d&apos;emballage interdite(s) - &lt;a class=&quot;infoCond&quot; href=&quot;#&quot;&gt;liste&lt;/a&gt; Ruban de cerclage, Sangle ou feuillard, Agraphes et cerclage, Clous et cerclage, Ficelles", "Supplément applicable selon emballage utilisé", "Livraison contre signature ou cachet commercial", "Le suivi est exclusivement accessible sur le site www.colissimo.fr", "&lt;a class=&quot;infoCond&quot; href=&quot;#&quot;&gt;Responsabilité&lt;/a&gt; En cas de perte du colis confirmée par le système d&apos;information de La Poste, ou en cas de spoliation ou détérioration du colis, et après enquête du service client; ou par preuve apportée par l&apos;expéditeur, ce dernier peut bénéficier sur demande d&apos;une indemnisation ne pouvant excéder 23€/Kg (frais de port compris) et dans la limite de 690€, sauf en cas de faute de l&apos;expéditeur ou du destinataire, de force majeure, de vice propre de la chose ou de tout autre élément non imputable à La Poste.", "En cas d&apos;impossibilité de livraison, votre envoi est mis en instance gratuitement dans le bureau de poste de rattachement pendant 15 jours maximum.", "&lt;b class=&apos;red&apos;&gt;EnvoiMoinsCher ne prend pas en charge le SAV&lt;/b&gt;"],
+      "options": {
+        "option": {
+          "code": "assurance",
+          "name": "Assurance Sérénité proposée par AXA"
+        }
+      },
+      "insurance": {
+        "currency": "EUR",
+        "currency_symbol": "€",
+        "tax_exclusive": "3.75",
+        "tax_inclusive": "3.90"
+      },
+      "collection": {
+        "code": "POST_OFFICE",
+        "label": "Bureau de poste",
+        "date": "2017-05-04",
+        "month": "Mai",
+        "day": "04",
+        "description": "Vous devez déposer votre envoi dans un bureau de Poste de votre choix le jeudi 4 mai"
+      },
+      "delivery": {
+        "code": "HOME",
+        "label": "À domicile",
+        "date": "2017-05-09",
+        "delay": "4 Jours",
+        "month": "Mai",
+        "day": "09",
+        "description": "Livraison sur site le mardi 9 mai"
+      }
+    }, {
+      "mode": "COM",
+      "url": "http://www.envoimoinscher.com/choix.html?envoi=CoJourn1k16x15x8-eFR75002j0-pFR33000j60&ope=CHRP&srv=Chrono18",
+      "operator": {
+        "code": "CHRP",
+        "label": "Chronopost",
+        "logo": "http://www.envoimoinscher.com/img/operators/CHRP.png"
+      },
+      "service": {
+        "code": "Chrono18",
+        "label": "Chrono 18"
+      },
+      "price": {
+        "currency": "EUR",
+        "currency_symbol": "€",
+        "tax_exclusive": "10.92",
+        "tax_inclusive": "13.10"
+      },
+      "characteristics": ["Vous devez déposer votre envoi dans un bureau de Poste de votre choix le jeudi 4 mai", "Livraison à l&apos;adresse du destinataire le vendredi 5 mai avant 18:00", "Délai non garanti", "Livraison contre signature ou cachet commercial", "Suivi en ligne possible", "&lt;a class=&quot;infoCond&quot; href=&quot;#&quot;&gt;Responsabilité&lt;/a&gt; Assurance contractuelle en cas de perte, détérioration ou spoliation de votre envoi ; s&apos;élève à une indemnité de 23€ par kg sans pouvoir excéder 690€ par colis.", "En cas d&apos;impossibilité de livraison, votre envoi est mis en instance dans un bureau de Poste de votre choix à proximité"],
+      "options": {
+        "option": {
+          "code": "assurance",
+          "name": "Assurance Sérénité proposée par AXA"
+        }
+      },
+      "insurance": {
+        "currency": "EUR",
+        "currency_symbol": "€",
+        "tax_exclusive": "4.05",
+        "tax_inclusive": "4.26"
+      },
+      "collection": {
+        "code": "DROPOFF_POINT",
+        "label": "Point Relais",
+        "date": "2017-05-04",
+        "month": "Mai",
+        "day": "04",
+        "description": "Vous devez déposer votre envoi dans un bureau de Poste de votre choix le jeudi 4 mai"
+      },
+      "delivery": {
+        "code": "HOME",
+        "label": "À domicile",
+        "date": "2017-05-05",
+        "delay": "1 Jour",
+        "month": "Mai",
+        "day": "05",
+        "description": "Livraison à l&apos;adresse du destinataire le vendredi 5 mai avant 18:00"
+      }
+    }, {
+      "mode": "COM",
+      "url": "http://www.envoimoinscher.com/choix.html?envoi=CoJourn1k16x15x8-eFR75002j0-pFR33000j60&ope=DHLE&srv=DomesticExpress",
+      "operator": {
+        "code": "DHLE",
+        "label": "DHL Express",
+        "logo": "http://www.envoimoinscher.com/img/operators/DHLE.png"
+      },
+      "service": {
+        "code": "DomesticExpress",
+        "label": "Domestic"
+      },
+      "price": {
+        "currency": "EUR",
+        "currency_symbol": "€",
+        "tax_exclusive": "11.63",
+        "tax_inclusive": "13.96"
+      },
+      "characteristics": ["Enlèvement à l&apos;adresse de l&apos;expéditeur le jeudi 4 mai entre 12:00 et 19:00", "Livraison à l&apos;adresse du destinataire le vendredi 5 mai avant 18:00", "Délai non garanti", "Livraison contre signature ou cachet commercial", "Suivi en ligne possible", "&lt;a class=&quot;infoCond&quot; href=&quot;#&quot;&gt;Responsabilité&lt;/a&gt; La responsabilité de DHL se limite à 23 euros par kilogramme de poids brut de marchandise manquante ou avariée, sans pouvoir dépasser 750 euros par colis perdu, incomplet ou avarié, quels qu&apos;en soit le poids, le volume, les dimensions, la nature ou la valeur (la moins élevée de ces deux limites s&apos;appliquant)."],
+      "options": {
+        "option": {
+          "code": "assurance",
+          "name": "Assurance Sérénité proposée par AXA"
+        }
+      },
+      "insurance": {
+        "currency": "EUR",
+        "currency_symbol": "€",
+        "tax_exclusive": "4.05",
+        "tax_inclusive": "4.26"
+      },
+      "collection": {
+        "code": "COMPANY",
+        "label": "En entreprise",
+        "date": "2017-05-04",
+        "month": "Mai",
+        "day": "04",
+        "description": "Enlèvement à l&apos;adresse de l&apos;expéditeur le jeudi 4 mai entre 12:00 et 19:00"
+      },
+      "delivery": {
+        "code": "HOME",
+        "label": "À domicile",
+        "date": "2017-05-05",
+        "delay": "1 Jour",
+        "month": "Mai",
+        "day": "05",
+        "description": "Livraison à l&apos;adresse du destinataire le vendredi 5 mai avant 18:00"
+      }
+    }, {
+      "mode": "COM",
+      "url": "http://www.envoimoinscher.com/choix.html?envoi=CoJourn1k16x15x8-eFR75002j0-pFR33000j60&ope=UPSE&srv=StandardAP",
+      "operator": {
+        "code": "UPSE",
+        "label": "UPS",
+        "logo": "http://www.envoimoinscher.com/img/operators/UPSE.standardap.FR.png"
+      },
+      "service": {
+        "code": "StandardAP",
+        "label": "Standard Access Point"
+      },
+      "price": {
+        "currency": "EUR",
+        "currency_symbol": "€",
+        "tax_exclusive": "12.64",
+        "tax_inclusive": "15.17"
+      },
+      "characteristics": ["Enlèvement de l&apos;envoi à l&apos;adresse de l&apos;expéditeur le jeudi 4 mai", "Le destinataire doit retirer l&apos;envoi à partir du vendredi 5 mai dans un relais.", "Délai non garanti", "Livraison contre signature ou cachet commercial", "Suivi en ligne possible", "&lt;a class=&quot;infoCond&quot; href=&quot;#&quot;&gt;Responsabilité&lt;/a&gt; la responsabilité contractuelle d&apos;UPS est régie et est limitée conformément aux règles applicables (Convention de Varsovie ou Convention CMR, Convention de Montréal)"],
+      "options": {
+        "option": {
+          "code": "assurance",
+          "name": "Assurance Sérénité proposée par AXA"
+        }
+      },
+      "insurance": {
+        "currency": "EUR",
+        "currency_symbol": "€",
+        "tax_exclusive": "4.05",
+        "tax_inclusive": "4.26"
+      },
+      "collection": {
+        "code": "COMPANY",
+        "label": "En entreprise",
+        "date": "2017-05-04",
+        "time": "17:30",
+        "month": "Mai",
+        "day": "04",
+        "description": "Enlèvement de l&apos;envoi à l&apos;adresse de l&apos;expéditeur le jeudi 4 mai"
+      },
+      "delivery": {
+        "code": "PICKUP_POINT",
+        "label": "Point Relais",
+        "date": "2017-05-05",
+        "delay": "1 Jour",
+        "time": "19:00",
+        "month": "Mai",
+        "day": "04",
+        "guaranteed" : "true",
+        "description": "Le destinataire doit retirer l&apos;envoi à partir du vendredi 5 mai dans un relais."
+      }
+    }, {
+      "mode": "COM",
+      "url": "http://www.envoimoinscher.com/choix.html?envoi=CoJourn1k16x15x8-eFR75002j0-pFR33000j60&ope=CHRP&srv=Chrono13",
+      "operator": {
+        "code": "CHRP",
+        "label": "Chronopost",
+        "logo": "http://www.envoimoinscher.com/img/operators/CHRP.png"
+      },
+      "service": {
+        "code": "Chrono13",
+        "label": "Chrono 13"
+      },
+      "price": {
+        "currency": "EUR",
+        "currency_symbol": "€",
+        "tax_exclusive": "14.90",
+        "tax_inclusive": "17.88"
+      },
+      "characteristics": ["Vous devez déposer votre envoi dans un bureau de Poste de votre choix le jeudi 4 mai", "Livraison à l&apos;adresse du destinataire le vendredi 5 mai avant 13:00", "Délai non garanti", "Livraison contre signature ou cachet commercial", "Suivi en ligne possible", "&lt;a class=&quot;infoCond&quot; href=&quot;#&quot;&gt;Responsabilité&lt;/a&gt; Assurance contractuelle en cas de perte, détérioration ou spoliation de votre envoi ; s&apos;élève à une indemnité de 23€ par kg sans pouvoir excéder 690€ par colis.", "En cas d&apos;impossibilité de livraison, votre envoi est mis en instance dans un bureau de Poste de votre choix à proximité"],
+      "options": {
+        "option": {
+          "code": "assurance",
+          "name": "Assurance Sérénité proposée par AXA"
+        }
+      },
+      "insurance": {
+        "currency": "EUR",
+        "currency_symbol": "€",
+        "tax_exclusive": "4.05",
+        "tax_inclusive": "4.26"
+      },
+      "collection": {
+        "code": "DROPOFF_POINT",
+        "label": "Point Relais",
+        "date": "2017-05-04",
+        "month": "Mai",
+        "day": "04",
+        "description": "Vous devez déposer votre envoi dans un bureau de Poste de votre choix le jeudi 4 mai"
+      },
+      "delivery": {
+        "code": "HOME",
+        "label": "À domicile",
+        "date": "2017-05-05",
+        "delay": "1 Jour",
+        "month": "Mai",
+        "day": "05",
+        "description": "Livraison à l&apos;adresse du destinataire le vendredi 5 mai avant 13:00"
+      }
+    }, {
+      "mode": "COM",
+      "url": "http://www.envoimoinscher.com/choix.html?envoi=CoJourn1k16x15x8-eFR75002j0-pFR33000j60&ope=UPSE&srv=Standard",
+      "operator": {
+        "code": "UPSE",
+        "label": "UPS",
+        "logo": "http://www.envoimoinscher.com/img/operators/UPSE.png"
+      },
+      "service": {
+        "code": "Standard",
+        "label": "Standard"
+      },
+      "price": {
+        "currency": "EUR",
+        "currency_symbol": "€",
+        "tax_exclusive": "17.68",
+        "tax_inclusive": "21.22"
+      },
+      "characteristics": ["Enlèvement de l&apos;envoi à l&apos;adresse de l&apos;expéditeur le jeudi 4 mai", "Livraison à l&apos;adresse du destinataire le vendredi 5 mai avant 19:00", "Délai non garanti", "Livraison contre signature ou cachet commercial", "Suivi en ligne possible", "&lt;a class=&quot;infoCond&quot; href=&quot;#&quot;&gt;Responsabilité&lt;/a&gt; la responsabilité contractuelle d&apos;UPS est régie et est limitée conformément aux règles applicables (Convention de Varsovie ou Convention CMR, Convention de Montréal)"],
+      "options": [{
+        "code": "contre-remboursement",
+        "name": "Contre-remboursement",
+        "price": {
+          "currency": "EUR",
+          "currency_symbol": "€",
+          "tax_exclusive": "18.65",
+          "tax_inclusive": "22.38"
+        }
+      }, {
+        "code": "assurance",
+        "name": "Assurance Sérénité proposée par AXA"
+      }],
+      "insurance": {
+        "currency": "EUR",
+        "currency_symbol": "€",
+        "tax_exclusive": "4.05",
+        "tax_inclusive": "4.26"
+      },
+      "collection": {
+        "code": "COMPANY",
+        "label": "En entreprise",
+        "date": "2017-05-04",
+        "time": "17:30",
+        "month": "Mai",
+        "day": "04",
+        "description": "Enlèvement de l&apos;envoi à l&apos;adresse de l&apos;expéditeur le jeudi 4 mai"
+      },
+      "delivery": {
+        "code": "HOME",
+        "label": "À domicile",
+        "date": "2017-05-05",
+        "delay": "1 Jour",
+        "time": "19:00",
+        "month": "Mai",
+        "day": "05",
+        "guaranteed" : "true",
+        "description": "Livraison à l&apos;adresse du destinataire le vendredi 5 mai avant 19:00"
+      }
+    }, {
+      "mode": "COM",
+      "url": "http://www.envoimoinscher.com/choix.html?envoi=CoJourn1k16x15x8-eFR75002j0-pFR33000j60&ope=TNTE&srv=ExpressNational",
+      "operator": {
+        "code": "TNTE",
+        "label": "TNT Express",
+        "logo": "http://www.envoimoinscher.com/img/operators/TNTE.png"
+      },
+      "service": {
+        "code": "ExpressNational",
+        "label": "National 13H"
+      },
+      "price": {
+        "currency": "EUR",
+        "currency_symbol": "€",
+        "tax_exclusive": "19.95",
+        "tax_inclusive": "23.94"
+      },
+      "characteristics": ["Enlèvement à l&apos;adresse de l&apos;expéditeur le jeudi 4 mai entre 14:30 et 18:00.", "Livraison à l&apos;adresse du destinataire le vendredi 5 mai avant 13:00 ou en début d&apos;après midi en zone rurale.", "Délai garanti : en cas de retard, TNT s&apos;engage à rembourser jusqu&apos;à 30% des frais de transport et sous certaines conditions.", "Redevance Sécurité", "Livraison contre signature ou cachet commercial", "Suivi en ligne possible", "&lt;a class=&quot;infoCond&quot; href=&quot;#&quot;&gt;Responsabilité&lt;/a&gt; Dans tous les cas où la responsabilité de TNT Express France serait engagée pour quelque cause que ce soit, et à quelque titre que ce soit, elle est limitée à la réparation du seul dommage matériel direct résultant de la perte ou de l&apos;avarie, à l&apos;exclusion de tout autre dommages et intérêts ou dommages immatériels, sans pouvoir excéder les limitations suivantes :&lt;ul&gt;&lt;li&gt;Transport routier international : 8,33 DTS&lt;sup&gt;*&lt;/sup&gt; par kg sinistré.&lt;/li&gt;&lt;li&gt;Transport aérien : 17 DTS&lt;sup&gt;*&lt;/sup&gt; par kg sinistré.&lt;/li&gt;&lt;/ul&gt;&lt;sup&gt;*&lt;/sup&gt;valeur du DTS = 1,12€ au 7 juin 2007.", "&lt;a class=&quot;infoCond&quot; href=&quot;#&quot;&gt;En cas d&apos;absence du destinataire...&lt;/a&gt;En cas d&apos;absence du destinataire, le colis est déposé dans le Relais Colis ® le plus proche. Le destinataire en est averti par email ou SMS. La durée de mise en instance est de 10 jours. Au delà de cette période, le colis est retourné à l&apos;expéditeur."],
+      "options": {
+        "option": {
+          "code": "assurance",
+          "name": "Assurance Sérénité proposée par AXA"
+        }
+      },
+      "insurance": {
+        "currency": "EUR",
+        "currency_symbol": "€",
+        "tax_exclusive": "4.05",
+        "tax_inclusive": "4.26"
+      },
+      "collection": {
+        "code": "COMPANY",
+        "label": "En entreprise",
+        "date": "2017-05-04",
+        "month": "Mai",
+        "day": "04",
+        "description": "Enlèvement à l&apos;adresse de l&apos;expéditeur le jeudi 4 mai entre 14:30 et 18:00."
+      },
+      "delivery": {
+        "code": "HOME",
+        "label": "À domicile",
+        "date": "2017-05-05",
+        "delay": "1 Jour",
+        "month": "Mai",
+        "day": "05",
+        "description": "Livraison à l&apos;adresse du destinataire le vendredi 5 mai avant 13:00 ou en début d&apos;après midi en zone rurale."
+      }
+    }, {
+      "mode": "COM",
+      "url": "http://www.envoimoinscher.com/choix.html?envoi=CoJourn1k16x15x8-eFR75002j0-pFR33000j60&ope=UPSE&srv=ExpressSaver",
+      "operator": {
+        "code": "UPSE",
+        "label": "UPS",
+        "logo": "http://www.envoimoinscher.com/img/operators/UPSE.png"
+      },
+      "service": {
+        "code": "ExpressSaver",
+        "label": "Express Saver"
+      },
+      "price": {
+        "currency": "EUR",
+        "currency_symbol": "€",
+        "tax_exclusive": "23.14",
+        "tax_inclusive": "27.76"
+      },
+      "characteristics": ["Enlèvement de l&apos;envoi à l&apos;adresse de l&apos;expéditeur le jeudi 4 mai", "Livraison à l&apos;adresse du destinataire le vendredi 5 mai avant 19:00", "Délai garanti : garantie de remboursement en cas de retard et &lt;a class=&quot;infoCond&quot; href=&quot;#&quot;&gt;sous certaines conditions&lt;/a&gt;Le délai de livraison n&apos;est pas garanti dans les cas suivants : &lt;ul&gt;&lt;li&gt;tout article conditionné dans un emballage en métal ou en bois ;&lt;/li&gt;&lt;li&gt;tout article cylindrique tel qu&apos;un tonneau, un bidon, un pot de peinture ou un pneu qui ne serait pas entièrement conditionné dans un emballage en carton ondulé ;&lt;/li&gt;&lt;li&gt;tout colis dont le côté le plus long est supérieur à 150 cm, ou dont le second côté le plus long dépasse 76 cm ;&lt;/li&gt;&lt;li&gt;tout colis pesant plus de 32kg ;&lt;/li&gt;&lt;li&gt;tout colis faisant partie d&apos;un envoi dont le poids moyen par colis est supérieur à 32kg et pour lequel le poids par colis n&apos;est pas spécifié sur le bordereau d&apos;expédition émis par l&apos;un des systèmes d&apos;expédition automatisés UPS ;&lt;/li&gt;&lt;li&gt;Cas de force majeure et non respect des conditions générales de vente du transporteur.&lt;/li&gt;&lt;/ul&gt;", "Livraison contre signature ou cachet commercial", "Suivi en ligne possible", "&lt;a class=&quot;infoCond&quot; href=&quot;#&quot;&gt;Responsabilité&lt;/a&gt; la responsabilité contractuelle d&apos;UPS est régie et est limitée conformément aux règles applicables (Convention de Varsovie ou Convention CMR, Convention de Montréal)"],
+      "options": [{
+        "code": "contre-remboursement",
+        "name": "Contre-remboursement",
+        "price": {
+          "currency": "EUR",
+          "currency_symbol": "€",
+          "tax_exclusive": "18.65",
+          "tax_inclusive": "22.38"
+        }
+      }, {
+        "code": "assurance",
+        "name": "Assurance Sérénité proposée par AXA"
+      }],
+      "insurance": {
+        "currency": "EUR",
+        "currency_symbol": "€",
+        "tax_exclusive": "4.05",
+        "tax_inclusive": "4.26"
+      },
+      "collection": {
+        "code": "COMPANY",
+        "label": "En entreprise",
+        "date": "2017-05-04",
+        "time": "17:30",
+        "month": "Mai",
+        "day": "04",
+        "description": "Enlèvement de l&apos;envoi à l&apos;adresse de l&apos;expéditeur le jeudi 4 mai"
+      },
+      "delivery": {
+        "code": "HOME",
+        "label": "À domicile",
+        "date": "2017-05-05",
+        "delay": "1 Jour",
+        "time": "19:00",
+        "month": "Mai",
+        "day": "05",
+        "guaranteed" : "true",
+        "description": "Livraison à l&apos;adresse du destinataire le vendredi 5 mai avant 19:00"
+      }
+    }
+  ]
+}

@@ -96,3 +96,73 @@ Add the appRoutes and FunnelModule to imports
   
     <router-outlet></router-outlet>
     
+# Create a service 
+1)  inside src/app/shared 
+    
+    
+    ng g s offers
+
+2) Add getall methode
+
+    
+      import { Injectable } from '@angular/core';
+      import {Http, Response} from "@angular/http";
+      import 'rxjs/add/operator/map';
+      
+      @Injectable()
+      export class OffersService {
+      
+        constructor(protected http: Http) { }
+      
+        /**
+         * Get mocked response
+         * @returns
+         */
+        getAll()  {
+          return this.http.get( 'assets/offers.json')
+            .map((response: Response) => response.json());
+        }
+      }
+
+3) provide the service in funnel.module.ts
+  
+        
+     providers: [OffersService]
+    
+4) Get offers in the component : offers.component.ts
+
+  
+    import { Component, OnInit } from '@angular/core';
+    import {OffersService} from "../../shared/offers.service";
+    
+    @Component({
+      selector: 'app-offers',
+      templateUrl: './offers.component.html',
+      styleUrls: ['./offers.component.css']
+    })
+    export class OffersComponent implements OnInit {
+      offers: any;
+      constructor(private  offersService: OffersService) { }
+    
+      ngOnInit() {
+        this.offersService.getAll().subscribe(
+          data => {
+            this.offers = data.offers;
+            console.log(this.offers);
+          },
+          error => console.log(error)
+        );
+      }
+    
+    }
+
+5) Show offers in offers.component.html 
+
+
+      <h1>Offers List :</h1>
+      <ul>
+        <li *ngFor="let offer of offers">
+          <img src="{{offer.operator.logo}}"/> {{offer.service.label}} <hr/>
+        </li>
+      </ul>
+
