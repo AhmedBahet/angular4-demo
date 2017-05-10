@@ -59,4 +59,40 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
 
     cd src/app/funnel 
     
+    ng g c offers
+
+# Add Routing rules 
+
+1) funnel.module.ts
+
+       
+    const funnelRoutes: Routes = [
+      {path: 'offers', component: OffersComponent }
+    ];
+    
+   Add the funnelRoutes to imports   
+       
+    RouterModule.forRoot(funnelRoutes)      
+       
+   Add the OffersComponent to declarations 
+
+    declarations: [OffersComponent]
+
+
+
+2) app.module.ts
+
+  
+    const appRoutes: Routes = [
+        {path: '', redirectTo: 'offers', pathMatch: 'full'}
+    ];
+        
+Add the appRoutes and FunnelModule to imports  
+
+    FunnelModule,
+    RouterModule.forRoot(appRoutes)
+
+# Add router-outlet in app.component.html
+  
+    <router-outlet></router-outlet>
     
