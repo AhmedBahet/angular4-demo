@@ -50,3 +50,13 @@ Output :
 ## Create ne project
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
+
+# Create new Module
+
+    ng g m funnel
+    
+# Create new component
+
+    cd src/app/funnel 
+    
+    
